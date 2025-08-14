@@ -1,0 +1,114 @@
+ /* VILLA BANNER FONT */
+
+.Toronto{
+    position: absolute;
+    top:30%;
+    left:25%;
+    background-color: lab(100% 0.01 -0.01);
+    color: black;
+    font-size: large;
+}
+
+#Canada{
+    
+    color: orangered;
+
+}
+.text-2{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: antiquewhite;
+
+}
+.text-3{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: antiquewhite;
+
+}
+
+/* Banner Left side section grid */
+
+.feature-box {
+  display: flex;
+  align-items: flex-start; aligns icon and text to the top */
+  
+   justify-content:flex-start;
+  padding:20px;
+  border-bottom: 1px solid #ddd;
+}
+.feature-box:last-child {
+  border-bottom: none;
+  padding-bottom: 5px;
+}
+.feature-icon {
+  flex: 0 0 auto;
+  margin-right:20px;
+  margin-top: 4px;
+}
+.feature-icon i {
+  font-size: 28px;
+  color: #ff6600;
+}
+.feature-text h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.feature-text p {
+  font-size: 14px;
+  color: #666;
+  margin: 2px 0 0;
+}
+
+ .col-md-5 .orange{
+  color:orangered;
+  font-weight: bolder;
+ }
+
+ .col-md-5 .black{
+  font-size: x-large;
+ }
+
+/* VIDEO TEXT  */
+.Video-text span{ 
+  color: orangered;
+  font-weight: bold;
+
+
+}
+
+.Video-text{
+    
+    position: absolute;
+    
+     margin-top: 5%;
+    font-weight: bold;
+    
+
+    padding-left: 45%;
+    color: #ff5f1f;
+} 
+ .Video-text p{
+  color: antiquewhite;
+  font-size: xx-large;
+}
+
+ .video-img{
+  position: absolute;
+ margin-top: -20%;
+  
+  margin-left: 15%;
+}
+ 
+#video-icon{
+
+   position:absolute;
+  margin-left: 50%;
+  
+  margin-bottom: -10%;
+  }
+
+
+
