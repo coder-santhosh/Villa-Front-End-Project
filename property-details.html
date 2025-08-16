@@ -62,7 +62,7 @@
     </span>
   </div>
 
-  </div>
+</div>
 
 <!-- NAV BAR Section -->
 <div class="container ">
@@ -109,120 +109,193 @@
       background-color: #ff5e14;
       color: white;
     }
+
     .btn-orange:hover {
       background-color: #e64e0f;
       color: white;
     }
+
     .card-border {
       border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     }
+
     .section-padding {
       padding: 50px 0;
     }
+
     footer {
       background-color: #111;
       color: #fff;
       padding: 20px 0;
     }
+
     footer p {
       margin: 0;
     }
   </style>
-</head>
-<body>
+  </head>
 
-<!-- Header -->
-<section class="text-white text-center d-flex align-items-center justify-content-center"
-         style="background: url('./Assets/page-heading-bg.jpg') center/cover;
+  <body>
+
+    <!-- Header -->
+    <section class="text-white text-center d-flex align-items-center justify-content-center" style="background: url('./Assets/page-heading-bg.jpg') center/cover;
               height: 40vh;">
-  <div>
-    <p class="mb-1">HOME/SINGLE PROPERTY</p>
-    <h1 class="fw-bold"> SINGLE PROPERTY</h1>
-  </div>
-</section>
+      <div>
+        <p class="mb-1">HOME/SINGLE PROPERTY</p>
+        <h1 class="fw-bold"> SINGLE PROPERTY</h1>
+      </div>
+    </section>
 
-<!-- Property Details -->
-<section class="section-padding">
-  <div class="container">
-    <div class="row g-4">
-      <!-- Left Column -->
-      <div class="col-lg-8">
-        <img src="./Assets/single-property.jpg" class="img-fluid rounded mb-3" alt="Property Image">
-        <span class="badge bg-light text-dark border">Apartment</span>
-        <h4 class="mt-3">24 New Street Miami, OR 24560</h4>
-        <p><strong>Get the best villa agency</strong> HTML CSS Bootstrap Template for your company website. XYZ provides you the <a href="#">best service</a> in the world...</p>
+    <!-- Property Details -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Left Column -->
+          <div class="col-lg-8">
+            <img src="./Assets/single-property.jpg" class="img-fluid rounded mb-3" alt="Property Image">
 
-        <div class="card card-border p-3 mt-4">
-          <h6 class="text-danger fw-bold">Best useful links ?</h6>
-          <p><strong>Dolor <em>almesit amet</em></strong>, consectetur adipiscing elit...</p>
+          </div>
+
+          <!-- Right Column -->
+          <div class="container mt-4 pb-0 border rounded p-3 col-md-3">
+            <div class="feature-box">
+              <div class="feature-icon"><img src="./Assets/info-icon-01.png" alt=""></div>
+              <div class="feature-text">
+                <h2>250 m2</h2>
+                <p>Total Flat Space</p>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon"><img src="./Assets/info-icon-02.png" alt=""></div>
+              <div class="feature-text">
+                <h2>Contract</h2>
+                <p>Contracts Ready</p>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon"><img src="./Assets/info-icon-03.png" alt=""></div>
+              <div class="feature-text">
+                <h2>Payment</h2>
+                <p>Payment Process</p>
+              </div>
+            </div>
+            <div class="feature-box ">
+              <div class="feature-icon"><img src="./Assets/info-icon-04.png" alt=""></div>
+              <div class="feature-text">
+                <h2>Safety</h2>
+                <p>24/7 Under Control.</p>
+              </div>
+            </div>
+          </div>
+
+
+    </section>
+    <div class="container">
+      <span class="badge bg-light text-dark border">Apartment</span>
+      <h4 class="mt-3"> <b>24 New Street Miami, OR 24560</b></h4>
+    </div>
+
+
+
+    <!-- left side -->
+
+
+
+    <div class="container bg-light py-5">
+      <div class="Row">
+        <div class="col-md-9">
+          <p><strong>Get the best villa agency</strong> HTML CSS Bootstrap Template for your company website. XYZ
+            provides you the <a href="#">best service</a> in the world. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dolorum, voluptatem accusantium exercitationem temporibus quo voluptatibus consectetur non
+            aliquid suscipit quasi dolore impedit dicta ipsam accusamus earum? Illo nobis ullam tempore! </p>
+            
         </div>
-
-        <div class="mt-3">
-          <p><a href="#">How does this work ?</a></p>
-          <p><a href="#">Why is Villa the best ?</a></p>
+        <div class="col-md-9">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum autem voluptas temporibus minus molestiae
+            consectetur? Blanditiis consequatur maiores labore a voluptatum nam asperiores, recusandae quas ipsa
+            ratione! Repellendus ea quidem odio commodi animi nemo dicta saepe, at tempore voluptates facilis quisquam
+            temporibus aut sed possimus reiciendis dolorum harum. Saepe, maiores.</p>
         </div>
       </div>
+       </div>
+   
 
-      <!-- Right Column -->
-      <div class="col-lg-4">
-        <div class="card card-border p-3">
-          <p><strong>450 m2</strong><br>Total Flat Space</p>
-          <p><strong>Contract</strong><br>Contract Ready</p>
-          <p><strong>Payment</strong><br>Payment Process</p>
-          <p><strong>Safety</strong><br>24/7 Under Control</p>
+    <!-- ACCORDIAN -->
+    <div class="container">
+
+      <div class="col-md-9">
+        
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                <p class="orange">Best useful links ?</p>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, corporis ex dignissimos odit maxime,
+                repellendus recusandae minima perferendis voluptatibus ipsam quasi incidunt sequi sunt quo dolorum
+                laudantium! Corporis, perspiciatis esse dolorum blanditiis voluptatum placeat, nisi cupiditate
+                voluptatibus repellat, sit quibusdam!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <b> How does this work ?</b>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom
+                CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within
+                the
+                <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <b> Why is Villa Agency is the best ?</b>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom
+                CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within
+                the
+                <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- Best Deal Section -->
-<section class="section-padding">
-  <div class="container">
-    <div class="row align-items-center g-4">
-      <!-- Left -->
-      <div class="col-lg-4">
-        <p class="text-danger mb-1">BEST DEAL</p>
-        <h3 class="fw-bold">Find Your Best Deal Right Now!</h3>
-        <div class="mt-3">
-          <a href="#" class="btn btn-orange me-2">Apartment</a>
-          <a href="#" class="btn btn-dark me-2">Villa House</a>
-          <a href="#" class="btn btn-dark">Penthouse</a>
-        </div>
-        <div class="card card-border p-3 mt-4">
-          <p>Total Flat Space <strong>540 m2</strong></p>
-          <p>Floor number <strong>3</strong></p>
-          <p>Number of rooms <strong>8</strong></p>
-          <p>Parking Available <strong>Yes</strong></p>
-          <p>Payment Process <strong>Bank</strong></p>
-        </div>
-      </div>
 
-      <!-- Middle -->
-      <div class="col-lg-4">
-        <img src="https://via.placeholder.com/400x300" class="img-fluid rounded" alt="Interior Image">
-      </div>
 
-      <!-- Right -->
-      <div class="col-lg-4">
-        <h5>All Info About Apartment</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-        <a href="#" class="btn btn-dark">Schedule a Visit</a>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- Footer -->
-<footer class="text-center">
-  <div class="container">
-    <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. Design: XYZ</p>
-  </div>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+
+
+
+
+  </body>
+
 </html>
 
 

@@ -52,6 +52,55 @@
   border-bottom: none;
   padding-bottom: 5px;
 }
+
+/* Left box at best deal section */
+
+ .feature-box2 {
+  display: flex; */
+   align-items: center; aligns icon and text to the top */ 
+  
+   justify-content: between;
+  padding:20px;
+  border-bottom: 1px solid #ddd;
+}
+.feature-box2:last-child {
+  border-bottom: none;
+  padding-bottom: 5px;
+} 
+.container .orange-2 {
+  color: orangered;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.container #orange-button{
+
+  background-color:orangered;
+  color: white;
+  
+}
+
+.btn:hover {
+  background-color: orangered !important;
+  color: white !important;
+}
+ .card-img-top{
+      padding: 20px;
+    
+     
+
+    } 
+
+/* .card {
+  border-radius: 15px !important;  force card rounding
+  overflow: hidden;                clip image corners
+} */
+
+/* .card-img-top {
+  border-radius: 15px !important; top corners rounded
+} */
+
+
+
 .feature-icon {
   flex: 0 0 auto;
   margin-right:20px;
@@ -241,3 +290,9 @@ Next section
       border: none;
     }
   
+
+    /* PROPERTY DETAILS */
+.col-md-9 .orange {
+  color: orangered;
+  font-weight: bold;
+}
