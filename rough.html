@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image with Icon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .image-container img {
+      width: 350px; /* adjust as per your design */
+      border-radius: 10px;
+    }
+
+    .icon-overlay {
+      position: absolute;
+      bottom: 15px;   /* distance from bottom */
+      left: 15px;     /* distance from left */
+      background-color: orange;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-container">
+    <img src="https://via.placeholder.com/350x250" alt="Apartment">
+    <div class="icon-overlay">
+      <i class="fa-solid fa-house"></i>
+    </div>
+  </div>
+
+</body>
+</html>
+
