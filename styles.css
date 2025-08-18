@@ -85,6 +85,7 @@
 }
  .card-img-top{
       padding: 20px;
+      border-radius: 5px;
     
      
 
@@ -99,7 +100,13 @@
   border-radius: 15px !important; top corners rounded
 } */
 
-
+/* .card .rounded-img{
+  border-radius: 5px !important;
+} */
+.card .rounded-img{
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+}
 
 .feature-icon {
   flex: 0 0 auto;
@@ -257,7 +264,7 @@ Next section
       margin: 0;
     }
     
-  <style>
+
     .contact-section {
       background: url('your-background-image.jpg') center center/cover no-repeat;
       padding: 80px 0;
@@ -296,3 +303,75 @@ Next section
   color: orangered;
   font-weight: bold;
 }
+
+
+/* PROPERTY STYLES  */
+
+.card-img-top{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.property-type {
+      font-size: 0.8rem;
+      font-weight: bold;
+      background: #ffe8e0;
+      color:#111;
+      padding: 4px 10px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .price {
+      color: #ff5f1f;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .btn-dark {
+      border-radius: 20px;
+      padding: 6px 20px;
+    }
+    .filter-btns .btn {
+      border-radius: 5px;
+      padding: 6px 15px;
+      font-weight: 500;
+    }
+    .filter-btns .btn-orange {
+      background-color: #ff5f1f;
+      color: white;
+    }
+    .filter-btns .btn-orange:hover {
+      background-color: #e65100;
+    }
+
+
+    /* PROPERTY DETAILS STYLES */
+
+
+     .btn-orange {
+      background-color: #ff5e14;
+      color: white;
+    }
+
+    .btn-orange:hover {
+      background-color: #e64e0f;
+      color: white;
+    }
+
+    .card-border {
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .section-padding {
+      padding: 50px 0;
+    }
+
+    footer {
+      background-color: #111;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    footer p {
+      margin: 0;
+    }
