@@ -84,26 +84,18 @@
   background-color: orangered !important;
   color: white !important;
 }
- .card-img-top{
-      padding: 20px;
-      border-radius: 5px;
-    
-     
 
-    } 
+.card {
+  border-radius: 5px;
+  overflow: hidden;  /* ensures image respects card rounding */
+  padding: 15px;
+}
 
-/* .card {
-  border-radius: 15px !important;  force card rounding
-  overflow: hidden;                clip image corners
-} */
+.card-img-top {
+  border-radius: 10px;  /* remove individual rounding */
+}
 
-/* .card-img-top {
-  border-radius: 15px !important; top corners rounded
-} */
 
-/* .card .rounded-img{
-  border-radius: 5px !important;
-} */
 .card .rounded-img{
   border-top-left-radius: 5px !important;
   border-top-right-radius: 5px !important;
@@ -356,7 +348,65 @@ Next section
       background-color: #e65100;
     }
 
+/* PROPERTY STYLE */
 
+<style>
+    .property-type {
+      font-size: 0.8rem;
+      font-weight: bold;
+      background: #ffe8e0;
+      color: #ff5f1f;
+      padding: 4px 10px;
+      border-radius: 20px;
+      display: inline-block;
+    }
+
+    /* FOOTER */
+    .price {
+      color: #ff5f1f;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+     footer p {
+      margin: 0;
+    }
+    
+    
+    .btn-dark {
+      border-radius: 20px;
+      padding: 6px 20px;
+    }
+    .filter-btns .btn {
+      border-radius: 5px;
+      padding: 6px 15px;
+      font-weight: 500;
+    }
+    .filter-btns .btn-orange {
+      background-color: #ff5f1f;
+      color: white;
+    }
+    .filter-btns .btn-orange:hover {
+      background-color: #e65100;
+    }
+    .page-link {
+  border-radius: 50% !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0 5px;
+  background-color: black;   /* default color for all */
+  color: white;              /* text color */
+  border: none;              /* optional - remove border */
+}
+.page-link:hover{
+  background-color: #ff5c00;
+}
+
+   
+  </style>
     /* PROPERTY DETAILS STYLES */
 
 
